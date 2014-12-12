@@ -1,7 +1,7 @@
 //
 //  SShape.swift
 //  Tetris
-//
+//  Based off of Bloc.io's Swiftris
 //  Created by Austin Wu on 12/11/14.
 //  Copyright (c) 2014 Austin Wu. All rights reserved.
 //
