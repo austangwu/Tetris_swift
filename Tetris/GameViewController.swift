@@ -53,7 +53,7 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
         
         let currentPoint = sender.translationInView(self.view)
         if let originalPoint = panPointReference {
-            if abs(currentPoint.x - originalPoint.x) > (BlockSize * 0.9) {
+            if abs(currentPoint.x - originalPoint.x) > (BlockSize * 1.5) {
                 if sender.velocityInView(self.view).x > CGFloat(0) {
                     tetris.moveShapeRight()
                     panPointReference = currentPoint
@@ -66,6 +66,7 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
             panPointReference = currentPoint
         }
     }
+    
     
     @IBAction func didSwipe(sender: UISwipeGestureRecognizer) {
         tetris.dropShape()
