@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5B6B64D-35D6-4916-9B40-947B9E19E7BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tetris</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F52B314161DE882CB01A6D77EB1F31D1D03A07D</key>
+		<string>https://github.com/austangwu/tetris_Swift</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tetris.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F52B314161DE882CB01A6D77EB1F31D1D03A07D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/austangwu/tetris_Swift</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F52B314161DE882CB01A6D77EB1F31D1D03A07D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F52B314161DE882CB01A6D77EB1F31D1D03A07D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tetris</string>
+		</dict>
+	</array>
+</dict>
+</plist>
