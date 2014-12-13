@@ -29,6 +29,7 @@
 		FC1F21421A0D8F23003A6B83 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F21411A0D8F23003A6B83 /* Array2D.swift */; };
 		FC4C56B01A1A7FA400C2DC09 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4C56AF1A1A7FA400C2DC09 /* Block.swift */; };
 		FC71A14A1A1FE2C100C76514 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71A1491A1FE2C100C76514 /* Shape.swift */; };
+		FC8578251A3B919700AD69F9 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8578241A3B919700AD69F9 /* GameOverViewController.swift */; };
 		FCDC64F01A3A265300A7AC17 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC64EF1A3A265300A7AC17 /* SquareShape.swift */; };
 		FCDC64F21A3A288800A7AC17 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC64F11A3A288800A7AC17 /* TShape.swift */; };
 		FCDC64F61A3A2C7500A7AC17 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC64F51A3A2C7500A7AC17 /* LineShape.swift */; };
@@ -76,6 +77,7 @@
 		FC1F21411A0D8F23003A6B83 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		FC4C56AF1A1A7FA400C2DC09 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		FC71A1491A1FE2C100C76514 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FC8578241A3B919700AD69F9 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		FCDC64EF1A3A265300A7AC17 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		FCDC64F11A3A288800A7AC17 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
 		FCDC64F51A3A2C7500A7AC17 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				FC1F21041A0D6170003A6B83 /* AppDelegate.swift */,
 				FC1F21081A0D6170003A6B83 /* GameScene.swift */,
 				FC1F210A1A0D6170003A6B83 /* GameViewController.swift */,
+				FC8578241A3B919700AD69F9 /* GameOverViewController.swift */,
 				FC1F210C1A0D6170003A6B83 /* Main.storyboard */,
 				FC1F210F1A0D6170003A6B83 /* Images.xcassets */,
 				FC1F21111A0D6170003A6B83 /* LaunchScreen.xib */,
@@ -315,6 +318,7 @@
 				FCDC64FC1A3A30E300A7AC17 /* SShape.swift in Sources */,
 				FCDC64F21A3A288800A7AC17 /* TShape.swift in Sources */,
 				FC4C56B01A1A7FA400C2DC09 /* Block.swift in Sources */,
+				FC8578251A3B919700AD69F9 /* GameOverViewController.swift in Sources */,
 				FC1F210B1A0D6170003A6B83 /* GameViewController.swift in Sources */,
 				FCDC64FE1A3A325D00A7AC17 /* ZShape.swift in Sources */,
 				FC1F21051A0D6170003A6B83 /* AppDelegate.swift in Sources */,

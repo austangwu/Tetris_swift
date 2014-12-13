@@ -9,7 +9,6 @@
 import UIKit
 import SpriteKit
 
-
 class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerDelegate {
 
     var scene : GameScene!
@@ -18,7 +17,6 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
     
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var levelLabel: UILabel!
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +35,7 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
         tetris.delegate = self
         tetris.beginGame()
         
-        //Present scene
+        //loads scene in view
         skView.presentScene(scene)
     }
     
@@ -124,7 +122,9 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
         scene.stopTicking()
         scene.playSound("gameover.mp3")
         scene.animateCollapsingLines(tetris.removeAllBlocks(), fallenBlocks: Array<Array<Block>>()) {
-            //TODO insert game over graphics
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("govcID") as UIViewController
+            self.presentViewController(vc, animated: true, completion: nil)
         }
     }
     
