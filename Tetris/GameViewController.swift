@@ -123,9 +123,11 @@ class GameViewController: UIViewController, TetrisDelegate, UIGestureRecognizerD
         scene.playSound("gameover.mp3")
         scene.animateCollapsingLines(tetris.removeAllBlocks(), fallenBlocks: Array<Array<Block>>()) {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewControllerWithIdentifier("govcID") as UIViewController
+            let vc = storyboard.instantiateViewControllerWithIdentifier("govcID") as GameOverViewController
+            vc.passController(self)
             self.presentViewController(vc, animated: true, completion: nil)
         }
+
     }
     
     func gameDidLevelUp(tetris: Tetris) {

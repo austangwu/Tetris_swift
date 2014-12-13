@@ -21,6 +21,7 @@ class GameScene: SKScene {
     var tick:(() -> ())?
     var tickLengthMillis = TickLengthLevelOne
     var lastTick:NSDate?
+    var playMusic: Bool?
     
     var textureCache = Dictionary<String, SKTexture>()
     
@@ -181,5 +182,4 @@ class GameScene: SKScene {
 
         runAction(SKAction.waitForDuration(longestDuration), completion:completion)
     }
-    
 }

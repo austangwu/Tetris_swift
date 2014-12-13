@@ -56,6 +56,8 @@ class Tetris{
     }
     
     func beginGame() {
+        score = 0
+        level = 1
         if(nextShape == nil){
             nextShape = Shape.random(PreviewColumn, startingRow: PreviewRow)
         }
@@ -175,8 +177,6 @@ class Tetris{
     }
     
     func endGame() {
-        score = 0
-        level = 1
         delegate?.gameDidEnd(self)
     }
     
