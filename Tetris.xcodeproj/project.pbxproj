@@ -13,7 +13,6 @@
 		FC1F210B1A0D6170003A6B83 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F210A1A0D6170003A6B83 /* GameViewController.swift */; };
 		FC1F210E1A0D6170003A6B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1F210C1A0D6170003A6B83 /* Main.storyboard */; };
 		FC1F21101A0D6170003A6B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1F210F1A0D6170003A6B83 /* Images.xcassets */; };
-		FC1F21131A0D6170003A6B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1F21111A0D6170003A6B83 /* LaunchScreen.xib */; };
 		FC1F211F1A0D6170003A6B83 /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F211E1A0D6170003A6B83 /* TetrisTests.swift */; };
 		FC1F212E1A0D624B003A6B83 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC1F21291A0D624B003A6B83 /* bomb.mp3 */; };
 		FC1F212F1A0D624B003A6B83 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC1F212A1A0D624B003A6B83 /* drop.mp3 */; };
@@ -60,7 +59,6 @@
 		FC1F210A1A0D6170003A6B83 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FC1F210D1A0D6170003A6B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC1F210F1A0D6170003A6B83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC1F21121A0D6170003A6B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC1F21181A0D6170003A6B83 /* TetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1F211D1A0D6170003A6B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1F211E1A0D6170003A6B83 /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				FC8578241A3B919700AD69F9 /* GameOverViewController.swift */,
 				FC1F210C1A0D6170003A6B83 /* Main.storyboard */,
 				FC1F210F1A0D6170003A6B83 /* Images.xcassets */,
-				FC1F21111A0D6170003A6B83 /* LaunchScreen.xib */,
 				FC1F21331A0D6276003A6B83 /* Sprites.atlas */,
 				FC1F21281A0D624B003A6B83 /* Sounds */,
 				FC1F21021A0D6170003A6B83 /* Supporting Files */,
@@ -278,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1F21131A0D6170003A6B83 /* LaunchScreen.xib in Resources */,
 				FC1F213C1A0D6285003A6B83 /* background@2x.png in Resources */,
 				FC1F213F1A0D6285003A6B83 /* whitebg.png in Resources */,
 				FC1F213E1A0D6285003A6B83 /* gameboard@2x.png in Resources */,
@@ -354,14 +350,6 @@
 				FC1F210D1A0D6170003A6B83 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC1F21111A0D6170003A6B83 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC1F21121A0D6170003A6B83 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

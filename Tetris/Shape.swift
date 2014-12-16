@@ -47,8 +47,8 @@ let ThirdBlockIdx: Int = 2
 let FourthBlockIdx: Int = 3
 
 class Shape: Hashable, Printable {
+
     let color:BlockColor
-    
     var blocks = Array<Block>()
     var orientation: Orientation
     var column, row:Int
@@ -138,7 +138,6 @@ class Shape: Hashable, Printable {
     final func shiftLeftByOneColumn() {
         shiftBy(-1, rows: 0)
     }
-    
     
     
     final func shiftBy(columns: Int, rows: Int) {
