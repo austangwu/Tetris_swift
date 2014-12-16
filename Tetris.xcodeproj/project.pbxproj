@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0C812D1A3F50A500C48172 /* GameStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C812C1A3F50A500C48172 /* GameStartViewController.swift */; };
 		FC1F21051A0D6170003A6B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F21041A0D6170003A6B83 /* AppDelegate.swift */; };
 		FC1F21091A0D6170003A6B83 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F21081A0D6170003A6B83 /* GameScene.swift */; };
 		FC1F210B1A0D6170003A6B83 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F210A1A0D6170003A6B83 /* GameViewController.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0C812C1A3F50A500C48172 /* GameStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartViewController.swift; sourceTree = "<group>"; };
 		FC1F20FF1A0D6170003A6B83 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1F21031A0D6170003A6B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1F21041A0D6170003A6B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				FC1F21041A0D6170003A6B83 /* AppDelegate.swift */,
 				FC1F21081A0D6170003A6B83 /* GameScene.swift */,
+				FC0C812C1A3F50A500C48172 /* GameStartViewController.swift */,
 				FC1F210A1A0D6170003A6B83 /* GameViewController.swift */,
 				FC8578241A3B919700AD69F9 /* GameOverViewController.swift */,
 				FC1F210C1A0D6170003A6B83 /* Main.storyboard */,
@@ -322,6 +325,7 @@
 				FC1F210B1A0D6170003A6B83 /* GameViewController.swift in Sources */,
 				FCDC64FE1A3A325D00A7AC17 /* ZShape.swift in Sources */,
 				FC1F21051A0D6170003A6B83 /* AppDelegate.swift in Sources */,
+				FC0C812D1A3F50A500C48172 /* GameStartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
